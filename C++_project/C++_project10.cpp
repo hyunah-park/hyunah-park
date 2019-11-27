@@ -9,19 +9,19 @@ cstring을 사용하여 문자열을 두 개 입력받고 두 개의 문자열�
 using namespace std;
 
 int main() {
-char password1[11];
-char password2[11];
+  char password1[11];
+  char password2[11];
 
-cout << "새 암호를 입력하세요>>";
-cin >> password1;
+  cout << "새 암호를 입력하세요>>";
+  cin >> password1;
 
-cout << "새 암호를 다시 한 번 입력하세요>>";
-cin >> password2;
+  cout << "새 암호를 다시 한 번 입력하세요>>";
+  cin >> password2;
 
-if (strcmp(password1, password2) == 0) {
-cout << "같습니다\n";
-}
-else
-cout << "같지 않습니다\n";
+  if (strcmp(password1, password2) == 0) {
+    cout << "같습니다\n";
+  }
+  else
+    cout << "같지 않습니다\n";
 
 }
