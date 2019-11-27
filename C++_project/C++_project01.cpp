@@ -5,6 +5,6 @@ Visual C++을 활용하여 이름을 출력하는 C++ 프로그램을 작성하�
 
 #include <iostream>
 int main() {
-std::cout << "My name is Mike.\n";
-return 0;
+  std::cout << "My name is Mike.\n";
+  return 0;
 }
